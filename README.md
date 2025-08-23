@@ -7,3 +7,5 @@ Attackers can hide service persistance using restrictive DACL's using ```sdset``
 
 How it works (quite simple):
 It compares what you see using ```sc query``` with that registry keys are pressent in ```SYSTEM\CurrentControlSet\Services```. It tries its best to filter out the noise (drivers, service templates etc.).
+
+<img width="1199" height="207" alt="output" src="https://github.com/user-attachments/assets/008c294f-fed8-431f-8a4b-c7e4fff98be6" />
